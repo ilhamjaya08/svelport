@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="h-full w-full" lang=" en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/personal_logo.png" />
+	<meta name="viewport" content="width=device-width" />
+	<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PR5N2L25');</script>
+	<!-- End Google Tag Manager -->
+	<script async src="https://us.umami.is/script.js" data-website-id="7e7843a8-51ba-4281-9cc1-1403f9b30249"></script>
+	<!-- a TEMPORARY fix to avoid light theme flashbang bug. (https://github.com/themesberg/flowbite-svelte/issues/782) -->
+	<script>
+		(function () {
+			const theme = localStorage.getItem('color-theme') || (window.matchMedia('(prefers-color-scheme:  dark)').matches ? 'dark' : 'light');
+			document.documentElement.classList.add(theme);
+		})();
+	</script>
+
+
+	%sveltekit.head%
+</head>
+
+<body class="h-full w-full dark:bg-gray-900" data-sveltekit-preload-data="hover">
+	<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PR5N2L25"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>
