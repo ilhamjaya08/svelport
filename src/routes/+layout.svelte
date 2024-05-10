@@ -2,7 +2,6 @@
 	import '../app.postcss';
 	import { Avatar, Navbar, NavBrand, NavLi, NavUl, NavHamburger, DarkMode } from 'flowbite-svelte';
 	import { onMount } from 'svelte';
-	import personal_logo from '../../src/assets/personal_logo.png';
 	import NavButton from '$lib/components/atoms/NavButton.svelte';
 	var hasIconLoaded = false;
 	onMount(() => {
@@ -24,6 +23,7 @@
 	<body class="dark:bg-gray-900">
 		<Navbar navClass="md:px-60 py-3 px-6 md:py-6" let:hidden let:toggle>
 			<div class="nav flex justify-between w-full md:w-auto md:block">
+				
 				<NavBrand href="/">
 					{#if hasIconLoaded}
 						<div class="container">

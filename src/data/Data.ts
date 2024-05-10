@@ -300,32 +300,60 @@ export let user: User = {
     ],
     contact_links: [
         {
-            title: "Mail",
-            text: "hello@auna.li\ncossale@revanced.app",
-            href: "mailto:hello@auna.li",
-            ctaText: "Contact",
+            title: "E-Mail",
+            text: "m.ilhamjaya1808@gmail.com (primary)\n mail@ilhamjaya08.me",
+            href: "mailto:m.ilhamjaya1808@gmail.com",
+            ctaText: "Send Mail",
             icon: "<svg class='h-11 w-11 text-gray-900 dark:text-gray-300' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2.5' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'> <path d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' stroke-linecap='round' stroke-linejoin='round' /> </svg>"
         },
         {
+            title: "WhatsApp",
+            text: "+6289603982787",
+            href: "http://wa.me/6289603982787",
+            ctaText: "Message",
+            icon: "<i class='text-5xl fa-brands fa-whatsapp text-gray-900 dark:text-gray-300' />"
+        },
+        {
+            title: "Instagram",
+            text: "@ilham.j_08",
+            href: "https://instagram.com/@ilham.j_08",
+            ctaText: "Follow",
+            icon: "<i class='text-5xl fa-brands fa-instagram text-gray-900 dark:text-gray-300' />"
+        },
+        {
+            title: "Facebook",
+            text: "Muhammad Ilham Jaya",
+            href: "facebook.com/",
+            ctaText: "Add",
+            icon: "<i class='text-5xl fa-brands fa-facebook text-gray-900 dark:text-gray-300' />"
+        },
+        {
+            title: "GitHub",
+            text: "github.com/ilhamjaya08",
+            href: "https://github.com/ilhamjaya08",
+            ctaText: "Collaborate",
+            icon: "<i class='text-5xl fa-brands fa-github text-gray-900 dark:text-gray-300' />"
+        },
+        {
+            title: "Tiktok",
+            text: "tiktok.com/ilhamjaya08",
+            href: "https://tiktok.com/ilhamjaya08",
+            ctaText: "Follow",
+            icon: "<i class='text-5xl fa-brands fa-tiktok text-gray-900 dark:text-gray-300' />"
+        },
+        {
             title: "Discord",
-            text: "@cossale",
-            href: "https://discord.com/users/164673069212893184",
+            text: "@sebutsajailham",
+            href: "https://discord.com/users/757257945531678760",
             ctaText: "Message",
             icon: "<i class='text-5xl fa-brands fa-discord text-gray-900 dark:text-gray-300' />"
         },
         {
             title: "Telegram",
-            text: "t.me/AunAli121",
-            href: "https://t.me/AunAli121",
+            text: "t.me/ilhamjaya08",
+            href: "https://t.me/ilhamjaya08",
             ctaText: "Message",
             icon: "<i class='text-5xl fa-brands fa-telegram text-gray-900 dark:text-gray-300' />"
-        },
-        {
-            title: "GitHub",
-            text: "github.com/Aunali321",
-            href: "https://github.com/Aunali321",
-            ctaText: "Follow",
-            icon: "<i class='text-5xl fa-brands fa-github text-gray-900 dark:text-gray-300' />"
         }
     ]
 
