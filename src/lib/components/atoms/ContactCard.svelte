@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="card bg-zinc-100 dark:bg-slate-800 shadow-lg rounded-lg w-64 m-auto p-8 border-2 border-latte-blue dark:border-ctp-mauve"
+	class="card bg-zinc-100  dark:bg-slate-800 shadow-lg rounded-lg w-64 m-auto p-8 border-2 border-latte-blue  dark:border-ctp-mauve"
 >
 	<div class="flex flex-col items-center w-min h-min mx-auto">
 		<slot />

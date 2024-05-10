@@ -56,6 +56,7 @@
 				<div class="hidden md:block"><NavLi><DarkMode size="lg" initialTheme="dark" /></NavLi></div>
 				<NavButton href="/">Home</NavButton>
 				<NavButton href="/about">About</NavButton>
+				<NavButton href="/works">Works</NavButton>
 				<NavButton href="/contact">Contact</NavButton>
 			</NavUl>
 		</Navbar>

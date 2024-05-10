@@ -2,6 +2,7 @@
 	import ContactHeading from '$lib/components/atoms/ContactHeading.svelte';
 	import ContactCard from '$lib/components/atoms/ContactCard.svelte';
 	import { user } from '../../data/Data';
+	import FormCards from '$lib/components/FormCards.svelte';
 </script>
 
 <section class="h-full py-4 md:py-12 mx-16 md:mx-20 latte dark:bg-gray-900 select-none dark:mocha">
@@ -20,4 +21,5 @@
 			</ContactCard>
 		{/each}
 	</div>
+	<FormCards/>
 </section>

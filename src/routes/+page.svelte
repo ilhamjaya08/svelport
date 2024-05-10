@@ -5,6 +5,7 @@
 	import CircularButton from '$lib/components/atoms/CircularButton.svelte';
 	import { user } from '../data/Data';
 	import Page from './contact/+page.svelte';
+	import FormCards from '$lib/components/FormCards.svelte';
 	let animate = false;
 
 	const helloInDifferentLanguages = [
@@ -36,7 +37,7 @@
 		>
 			<div class="flex justify-center">
 				
-				<h1 class="mb-4 text-4xl py-2 font-bold md:text-6xl lg:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-sky-300 via-pink-500 to-purple-700 dark:text-white sticky">
+				<h1 class="mb-4 text-4xl py-2 font-bold md:text-6xl lg:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-sky-300 via-pink-500 to-purple-700  sticky">
 					{user.name}
 				</h1>
 			</div>
@@ -59,5 +60,7 @@
 		<div class="flex items-center justify-center" transition:fade|local={{ duration: 700 }}>
 			<CircularButton size="md" href="/contact">👋 &nbsp;Explore this site</CircularButton>
 		</div>
+		<FormCards/>
 	{/if}
+	
 </section>
