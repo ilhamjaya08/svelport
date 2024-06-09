@@ -42,12 +42,6 @@
 						/>
 					{/if}
 				</NavBrand>
-				<div class="end-nav flex list-none">
-					<div class="block md:hidden">
-						<NavLi><DarkMode size="lg" initialTheme="dark" /></NavLi>
-					</div>
-					<NavHamburger on:click={toggle} />
-				</div>
 			</div>
 
 			<NavUl
