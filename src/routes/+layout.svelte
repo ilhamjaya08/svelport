@@ -42,6 +42,9 @@
 						/>
 					{/if}
 				</NavBrand>
+				<div class="end-nav flex list-none">
+					<NavHamburger on:click={toggle} />
+				</div>
 			</div>
 
 			<NavUl
