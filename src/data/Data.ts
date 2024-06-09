@@ -64,10 +64,10 @@ interface ContactLink {
     icon: string
 }
 
-let baseIconsURL = 'https://cdn.simpleicons.org/';
+const baseIconsURL = 'https://cdn.simpleicons.org/';
 
 
-export let user: User = {
+export const user: User = {
     name: "Muhammad Ilham Jaya",
     nameWithoutSuffix: "Ilham",
     role: "A ",
