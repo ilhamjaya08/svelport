@@ -1,9 +1,9 @@
-<script lang="ts">
+<script>
     import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon } from 'flowbite-svelte';
     import Icon from '@iconify/svelte';
   </script>
   
-  <Footer footerType="socialmedia" class="border-t-2 border-gray-200">
+  <Footer footerType="socialmedia" class="border-t-2 border-gray-200 mt-4">
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0">
         <FooterBrand href="https://flowbite.com" src="https://avatars.githubusercontent.com/u/141555404?v=4" alt="Flowbite Logo" name="Flowbite" />
