@@ -4,8 +4,6 @@
 	import { onMount } from 'svelte';
 	import CircularButton from '$lib/components/atoms/CircularButton.svelte';
 	import { user } from '../data/Data';
-	import Page from './contact/+page.svelte';
-	import FormCards from '$lib/components/FormCards.svelte';
 	let animate = false;
 
 	const helloInDifferentLanguages = [
@@ -60,7 +58,6 @@
 		<div class="flex items-center justify-center" transition:fade|local={{ duration: 700 }}>
 			<CircularButton size="md" href="/contact">👋 &nbsp;Explore this site</CircularButton>
 		</div>
-		<FormCards/>
 	{/if}
 	
 </section>
