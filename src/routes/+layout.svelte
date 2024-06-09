@@ -1,7 +1,10 @@
-<script lang="ts">
+<script>
 	import '../app.postcss';
+	// @ts-ignore
 	import { Avatar, Navbar, NavBrand, NavLi, NavUl, NavHamburger, DarkMode } from 'flowbite-svelte';
+	// @ts-ignore
 	import { onMount } from 'svelte';
+	import Foot from '$lib/components/Foot.svelte';
 	import NavButton from '$lib/components/atoms/NavButton.svelte';
 	var hasIconLoaded = false;
 	onMount(() => {
@@ -21,7 +24,7 @@
 		/>
 	</head>
 	<body class="dark:bg-gray-900">
-		<Navbar navClass="md:px-60 py-3 px-6 md:py-6" let:hidden let:toggle>
+		<Navbar class="md:px-60 py-3 px-6 md:py-6" let:hidden let:toggle>
 			<div class="nav flex justify-between w-full md:w-auto md:block">
 				
 				<NavBrand href="/">
@@ -62,5 +65,7 @@
 		</Navbar>
 
 		<slot />
+
+		<Foot />
 	</body>
 </html>
