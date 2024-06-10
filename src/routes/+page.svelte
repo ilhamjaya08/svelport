@@ -56,7 +56,7 @@
 		</div>
 
 		<div class="flex items-center justify-center" transition:fade|local={{ duration: 700 }}>
-			<CircularButton size="md" href="/contact">👋 &nbsp;Explore this site</CircularButton>
+			<CircularButton size="md" href="/about">👋 &nbsp;Explore this site</CircularButton>
 		</div>
 	{/if}
 	

@@ -64,7 +64,7 @@ interface ContactLink {
     icon: string
 }
 
-const baseIconsURL = 'https://cdn.simpleicons.org/';
+const baseIconsURL = 'https://cdn.simpleicons.org';
 
 
 export const user: User = {
@@ -84,8 +84,8 @@ export const user: User = {
         {
             name: "SMK Negeri 5 Surakarta",
             role: "Software Engineering Student",
-            logo: "https://mantiqinfotech.com/wp-content/uploads/2023/03/MTIQ-300x166.png",
-            href: "https://mantiqinfotech.com"
+            logo: "https://th.bing.com/th/id/OIP.VYzFacE-7DGJH0GHc3ZxjwHaHa?rs=1&pid=ImgDetMain",
+            href: "https://smkn5solo.sch.id"
         },
     ],
     education: [
