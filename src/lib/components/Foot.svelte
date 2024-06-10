@@ -4,7 +4,10 @@
     import { Contact, Page, Others, Icon as icons } from '../../data/FootNav';
   </script>
   
-  <Footer footerType="socialmedia" class="border-t-2 border-gray-200 mt-4">
+<Footer class="dark:bg-gray-900 border-t-2 mt-12">
+  <FooterCopyright class="mt-4" copyrightMessage="Made with ❤️ using Svelte" href="/" by="ilhamjaya08" />
+</Footer>
+  <!---<Footer footerType="socialmedia" class="border-t-2 border-gray-200 mt-4">
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0">
         <FooterBrand href="/" src="https://avatars.githubusercontent.com/u/141555404?v=4" alt="Muhammad Ilham Jaya " name="ilhamjaya08" />
@@ -47,4 +50,4 @@
         {/each}
       </div>
     </div>
-  </Footer>
+  </Footer>-->

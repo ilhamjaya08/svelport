@@ -35,7 +35,7 @@
 		>
 			<div class="flex justify-center">
 				
-				<h1 class="mb-4 text-4xl py-2 font-bold md:text-6xl lg:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-sky-300 via-pink-500 to-purple-700  sticky">
+				<h1 class="mb-4 text-4xl py-2 font-bold md:text-6xl lg:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-sky-300 via-pink-500 to-purple-700  sticky ">
 					{user.name}
 				</h1>
 			</div>

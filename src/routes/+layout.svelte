@@ -23,7 +23,7 @@
 			referrerpolicy="no-referrer"
 		/>
 	</head>
-	<body class="dark:bg-gray-900">
+	<body class="dark:bg-gray-900 overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#F9B0B9]">
 		<Navbar class="md:px-60 py-3 px-6 md:py-6" let:hidden let:toggle>
 			<div class="nav flex justify-between w-full md:w-auto md:block">
 				
