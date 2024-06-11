@@ -60,6 +60,18 @@
 				<NavButton href="/contact">Contact</NavButton>
 			</NavUl>
 		</Navbar>
+		<div
+           id="par" class="absolute blur duration-500  hover:blur-none w-72 h-72 rounded-full hover:translate-x-12 hover:translate-y-12 bg-violet-200 dark:bg-sky-800 bg-opacity-40 left-1 "
+        ></div>
+		<div
+           id="parr" class="absolute blur duration-500  animate-[ping_5s_linear_infinite] hover:blur-none w-12 h-12 rounded-full hover:translate-x-12 hover:translate-y-2 bg-opacity-75 bg-indigo-500 right-12 bottom-12"
+        ></div>
+        <div
+           id="parrr" class="absolute blur duration-500 hover:blur-none w-36 h-36 rounded-full bg-opacity-50 hover:translate-x-12 hover:-translate-y-12 bg-indigo-200 right-[38rem] "
+        ></div>
+        <div
+           id="parrrr" class="absolute blur duration-500 hover:blur-none w-24 h-24 bg-sky-200 bg-opacity-50 dark:bg-sky-300 rounded-full left-24 -bottom-10 hover:-translate-x-12"
+        ></div>
 
 		<slot />
 
