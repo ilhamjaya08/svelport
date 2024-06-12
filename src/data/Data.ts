@@ -255,48 +255,21 @@ export const user: User = {
     ],
     experience: [
         {
-            role: "Core Software Developer · ReVanced",
-            href: "https://revanced.app",
-            timespan: "May 2022 - Present",
+            role: "Founder and Core Developer - Diversity Labs",
+            href: "https://diversitylabs.tech",
+            timespan: "Feb 2024 - Present",
             external_links: [
                 {
-                    url: 'https://revanced.app',
+                    url: 'https://diversitylabs.tech',
                     label: 'Website'
                 },
                 {
                     label: 'GitHub',
-                    url: 'https://github.com/revanced'
+                    url: 'https://github.com/DiversityLabs'
                 }
             ],
-            description: `• Worked with a globally distributed team of 15 developers to build ReVanced, an open-source Android modification framework empowering users to customize apps to suit their needs. <br > <br >
-                    • I helped spearhead overall architecture, design, and roadmapping - devising an  adaptable core to enable endless customizations for apps built on Dalvik like YouTube. I also directly contributed extensive code across the codebase. <br > <br >
-                    • I led development of the ReVanced Manager app installed by over 170K users. The app streamlined installations and made core functionality easily accessible. <br > <br >
-                    • Initially adopted by a few hundred users, ReVanced gathered incredible traction on platforms like Reddit, Discord and Telegram from folks who really liked what we built. <br > <br >
-                    • As installs grew exponentially to 170,000+, I took on expanded duties - overseeing roadmap priorities, debugging complex issues, liaising with user communities, and ensuring stability through rigorous testing. <br > <br >
-                    • The project gave me hands-on experience on how coordinated remote teams can build delightful products loved by users globally. Debugging performance problems taught me how to approach issues methodically. Ultimately, the ability to solve real user problems at scale was extremely fulfilling.`,
-        },
-        {
-            role: "Software Developer Intern · MantiQ Infotech",
-            href: "https://mantiqinfotech.com/",
-            timespan: "September 2023 - March 2024",
-            external_links: [
-                {
-                    url: 'https://mantiqinfotech.com',
-                    label: 'Website'
-                },
-                {
-                    url: 'https://sentiraai.com',
-                    label: 'SentiraAI'
-                },
-            ],
-            description: `During my 6-month internship at MantiQ Infotech, I lead the development of <a class="dark:text-mocha-lavender text-latte-lavender" href="https://sentiraai.com"> SentiraAI </a> - a platform leveraging AI for audio/video transcription and text summarization. <br > <br >
-            • Built the core Node.js/Express API integrating AI services like Deepgram and Cohere for transcription and summarization capabilities. Implemented authentication using API keys and session management with Supabase. <br > <br >
-            • Developed the SentiraAI web app using SvelteKit and TailwindCSS, providing a user-friendly interface for file uploads, viewing transcripts/summaries, and account management. Integrated Stripe for payment processing. <br > <br >
-            • Developed Telegram and Discord bots connected to the SentiraAI API, enabling users to access transcription and summarization features within their messaging apps. <br > <br >
-            • Created cross-browser extensions (Chrome, Firefox, Safari) using JavaScript, allowing users to transcribe and summarize web content directly. <br > <br >
-            • Optimized performance through caching, error handling, and file cleanup mechanisms. Documented the system using VitePress. <br > <br >
-            • The project exposed me to full-stack development, third-party integrations, and building user experiences across multiple platforms using technologies like Node.js, SvelteKit, AI APIs, and messaging platform APIs.`,
-        },
+            description: `This is an open-source organization that I founded and manage. For the time being, I am the only member here. My goal is build an solid organization in creating applications and services.`,
+        }
     ],
     contact_links: [
         {
